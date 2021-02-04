@@ -8,7 +8,7 @@ from twisted.internet.protocol import connectionDone
 from twisted.protocols.basic import LineReceiver
 from twisted.internet import reactor
 import core.common as cmn
-
+print("Test")
 
 class ClientConnection(LineReceiver):
     """
